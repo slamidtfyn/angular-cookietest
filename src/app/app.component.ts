@@ -17,5 +17,7 @@ export class AppComponent {
       };
 
   AppInsights.downloadAndSetup(config);
+
+  AppInsights.trackPageView("FrontPage");
   }
 }
